@@ -2,7 +2,10 @@ html,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
+
 * {
   border: 1px solid blue;
 }
@@ -10,6 +13,7 @@ body {
 .mainlogo {
   width: 100%;
 }
+
 .mainlogo img {
   display: block;
   margin-left: auto;
@@ -27,5 +31,30 @@ body {
 
 .navitem a {
   color: white;
+}
+
+h2.red, h4.red {
+  color: #E52929;
+}
+
+h6.makeGray, p {
+  color: #95989A;
+}
+
+.faves {
+  text-align: center;
+}
+
+.sweetfaves, .savefaves {
+  color: #95989A;
+}
+
+a.redlink {
+  color: #E52929;
+  text-decoration: none;
+}
+
+a.redlink:hover {
+  color: #E52929;
   text-decoration: none;
 }
