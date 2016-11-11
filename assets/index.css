@@ -1,14 +1,14 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/** {
-  border: 1px solid blue;
-}*/
+* {
+  /*border: 1px solid blue;*/
+}
 
 .mainlogo {
   width: 100%;
@@ -20,18 +20,35 @@ body {
   margin-right: auto;
   width: 200px;
 }
+
 .navbar {
   background-color: white;
 }
+
 .nav {
   background: #E52929;
   border-bottom: none;
 }
-
+.nav li {
+  margin-left: .5%;
+  margin-right: .5%;
+}
 
 .navitem a {
   color: white;
+  float: none;
 }
+
+.footer {
+  background: #E52929;
+  width: 100%;
+}
+.footercomment1 {
+  color: white;
+  padding: 10px;
+}
+/*Logan*/
+
 
 .maincontainer {
   margin-top: 45%;
@@ -43,11 +60,14 @@ body {
   height: auto;
 }
 
-h2.red, h4.red {
+
+h2.red,
+h4.red {
   color: #E52929;
 }
 
-h6.makeGray, p {
+h6.makeGray,
+p {
   color: #95989A;
 }
 
@@ -55,7 +75,8 @@ h6.makeGray, p {
   text-align: center;
 }
 
-.sweetfaves, .savefaves {
+.sweetfaves,
+.savefaves {
   color: #95989A;
 }
 
