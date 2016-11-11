@@ -6,9 +6,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-* {
+/** {
   border: 1px solid blue;
-}
+}*/
 
 .mainlogo {
   width: 100%;
@@ -31,6 +31,16 @@ body {
 
 .navitem a {
   color: white;
+}
+
+.maincontainer {
+  margin-top: 45%;
+  text-align: center;
+}
+
+.responsPic {
+  width: 100%;
+  height: auto;
 }
 
 h2.red, h4.red {
@@ -57,4 +67,31 @@ a.redlink {
 a.redlink:hover {
   color: #E52929;
   text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.weOpen {
+  margin-top: 8%;
+}
+
+.mappy {
+  margin-top: 8%;
+}
+
+.storymain {
+  text-align: left;
+}
+
+@media (min-width: 830px) {
+  .maincontainer {
+    margin-top: 20%;
+  }
+}
+  @media (min-width: 1200px) {
+    .maincontainer {
+      margin-top: 15%
+  }
 }
