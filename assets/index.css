@@ -47,6 +47,20 @@ body {
   color: white;
   padding: 10px;
 }
+.menusavory {
+  border-left: 1px solid #E52929;
+}
+
+.foodpic img {
+  border: 1px solid #E52929;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.foodpic {
+  display: none;
+  height: 100px;
+}
 /*Logan*/
 
 
@@ -56,8 +70,8 @@ body {
 }
 
 .responsPic {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 
@@ -111,8 +125,12 @@ h2 {
     margin-top: 20%;
   }
 }
-  @media (min-width: 1200px) {
-    .maincontainer {
-      margin-top: 15%
+
+@media (min-width: 1200px) {
+  .maincontainer {
+    margin-top: 15%;
+  }
+  .foodpic {
+    display: block;
   }
 }
