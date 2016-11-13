@@ -78,6 +78,7 @@ p {
 .sweetfaves,
 .savefaves {
   color: #95989A;
+  padding-bottom: 2rem;
 }
 
 a.redlink {
@@ -104,11 +105,71 @@ h2 {
 
 .storymain {
   text-align: left;
+  padding-bottom: 2rem;
 }
 
+.storypage {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.contactEntry {
+  border: none;
+  border-bottom: 3px solid #E52929;
+  margin: 1.2rem auto;
+  color: #666;
+  font-size: 18px;
+  padding: 15px;
+  background-color: #F5F5F5;
+}
+
+.contactEntry:focus {
+  border-bottom: 7px solid #E52929;
+  box-shadow: none;
+}
+
+.quotebutton {
+  border: none;
+  border-radius: 2px;
+  background-color: #E52929;
+  color: white;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 12rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: .2s ease;
+}
+
+.quotebutton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #E52929;
+  border: 1px solid #E52929;
+}
+
+.biggerbutton {
+  width: 20rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.contactContainer {
+  display: inline-block;
+  text-align: none;
+}
 @media (min-width: 830px) {
   .maincontainer {
     margin-top: 20%;
+  }
+
+  textarea {
+    width: 55%
   }
 }
   @media (min-width: 1200px) {
