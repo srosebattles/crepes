@@ -54,18 +54,18 @@ body {
   padding: 10px;
 }
 .menusavory {
-  border-left: 1px solid #E52929;
+  border-left: 1px dashed gray;
 }
 
 .foodpic img {
   border: 1px solid #E52929;
-  border-radius: 50px;
+  border-radius: 40px;
   width: 100%;
 }
 
 .foodpic {
   display: none;
-  height: 100px;
+  height: 125px;
 }
 
 .beverages {
@@ -76,6 +76,20 @@ body {
 }
 .item {
   padding: 10px 0;
+}
+.sociallogo img {
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+}
+.menuheader {
+  border-bottom: 1px solid #E52929;
+}
+
+.nav > li > a:hover {
+  background-color: #EEE;
+  color: #E52929;
+  text-decoration: none;
 }
 /*Logan*/
 
@@ -91,24 +105,25 @@ body {
 }
 
 .smallerPic {
-  width: 85%;
   height: auto;
+  width: 85%;
 }
 
 h2.red,
 h4.red {
   color: #E52929;
+  padding-bottom: 10px;
 }
 
 h6.makeGray,
 p {
   color: #95989A;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .faverow {
-  max-width: 500px;
   margin: 0 auto;
+  max-width: 500px;
 }
 
 .faves {
@@ -118,6 +133,7 @@ p {
 .sweetfaves,
 .savefaves {
   color: #95989A;
+  font-size: 1.75rem;
   padding-bottom: 2rem;
 }
 
@@ -138,29 +154,30 @@ h2 {
 /*.weOpen {
   margin-top: 8%;
 }
-
-.mappy {
-  margin-top: 8%;
-}*/
+*/
+.mappy img,
+.crepePic img {
+  border: 1px solid #E52929;
+}
 
 .storymain {
-  text-align: left;
   padding-bottom: 2rem;
+  text-align: left;
 }
 
 .storypage {
-  text-align: left;
   margin-bottom: 5%;
+  text-align: left;
 }
 
 .contactEntry {
+  background-color: #F5F5F5;
   border: none;
   border-bottom: 3px solid #E52929;
-  margin: 1.2rem auto;
   color: #666;
   font-size: 18px;
+  margin: 1.2rem auto;
   padding: 15px;
-  background-color: #F5F5F5;
 }
 
 .contactEntry:focus {
@@ -169,31 +186,31 @@ h2 {
 }
 
 .quotebutton {
+  background-color: #E52929;
   border: none;
   border-radius: 3px;
-  background-color: #E52929;
   color: white;
-  padding: 1rem 1rem;
   font-size: 1rem;
   font-weight: 600;
-  width: 12rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
   transition: .2s ease;
+  width: 12rem;
 }
 
 .quotebutton:hover {
-  cursor: pointer;
   background-color: white;
-  color: #E52929;
-  outline: 1px solid #E52929;
   border-radius: 3px;
+  color: #E52929;
+  cursor: pointer;
+  outline: 1px solid #E52929;
 }
 
 .biggerbutton {
-  width: 20rem;
-  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  width: 20rem;
 }
 
 .left {
@@ -213,7 +230,7 @@ h2 {
   }*/
 
   textarea {
-    width: 55%
+    width: 55%;
   }
 }
 
