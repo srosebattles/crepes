@@ -71,9 +71,11 @@ body {
 .beverages {
   padding: 40px 0;
 }
+
 .locationwarning {
   padding: 40px 0;
 }
+
 .item {
   padding: 10px 0;
 }
@@ -100,7 +102,11 @@ h4.red {
   color: #E52929;
 }
 
-h6.makeGray,
+h6.makeGray {
+  color: #95989A;
+  font-size: 1.6rem;
+}
+
 p {
   color: #95989A;
   font-size: 2rem;
