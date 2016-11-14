@@ -10,6 +10,7 @@ body {
 * {
   /*border: 1px solid blue;*/
 }
+
 header {
   display: block;
   overflow-x: hidden;
@@ -197,6 +198,8 @@ h2 {
 
 .storypage {
   margin-bottom: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: left;
 }
 
