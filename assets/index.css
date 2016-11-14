@@ -4,12 +4,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 * {
   /*border: 1px solid blue;*/
 }
-
+header {
+  display: block;
+  overflow-x: hidden;
+  width: 100%;
+}
 .mainlogo {
   width: 100%;
 }
@@ -77,6 +82,9 @@ body {
 .item {
   padding: 10px 0;
 }
+.social {
+  width: 100%;
+}
 .sociallogo img {
   border-radius: 20px;
   height: 50px;
@@ -91,6 +99,8 @@ body {
   color: #E52929;
   text-decoration: none;
 }
+
+
 /*Logan*/
 
 
