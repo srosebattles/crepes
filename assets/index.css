@@ -104,12 +104,12 @@ h4.red {
 
 h6.makeGray {
   color: #95989A;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 p {
   color: #95989A;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .faverow {
@@ -154,6 +154,13 @@ h2 {
   padding-bottom: 2rem;
 }
 
+.mainInput {
+  color: #666;
+  background-color: #F5F5F5;
+  border: 1px solid #666;
+  border-radius: 4px solid;
+}
+
 .storypage {
   text-align: left;
   margin-bottom: 5%;
@@ -175,15 +182,15 @@ h2 {
 }
 
 .quotebutton {
-  border: none;
-  border-radius: 3px;
+  border: 1px solid transparent;
+  border-radius: 4px;
   background-color: #E52929;
   color: white;
   padding: 1rem 1rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  width: 12rem;
-  margin-top: 1rem;
+  width: 15rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   transition: .2s ease;
 }
@@ -192,12 +199,13 @@ h2 {
   cursor: pointer;
   background-color: white;
   color: #E52929;
-  outline: 1px solid #E52929;
-  border-radius: 3px;
+  border: 1px solid #E52929;
+  border-radius: 4px;
 }
 
 .biggerbutton {
   width: 20rem;
+  font-size: 2rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -209,6 +217,17 @@ h2 {
 .contactContainer {
   display: inline-block;
 }
+
+.padbottom {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+  .maincontainer {
+    margin-top: 30%;
+  }
+}
+
 @media (min-width: 830px) {
   .maincontainer {
     margin-top: 20%;
