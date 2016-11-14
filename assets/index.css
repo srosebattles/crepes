@@ -60,6 +60,10 @@ body {
   height: auto;
 }
 
+.smallerPic {
+  width: 85%;
+  height: auto;
+}
 
 h2.red,
 h4.red {
@@ -69,6 +73,11 @@ h4.red {
 h6.makeGray,
 p {
   color: #95989A;
+}
+
+.faverow {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .faves {
@@ -95,13 +104,13 @@ h2 {
   text-align: center;
 }
 
-.weOpen {
+/*.weOpen {
   margin-top: 8%;
 }
 
 .mappy {
   margin-top: 8%;
-}
+}*/
 
 .storymain {
   text-align: left;
@@ -130,7 +139,7 @@ h2 {
 
 .quotebutton {
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #E52929;
   color: white;
   padding: 1rem 1rem;
@@ -146,7 +155,8 @@ h2 {
   cursor: pointer;
   background-color: white;
   color: #E52929;
-  border: 1px solid #E52929;
+  outline: 1px solid #E52929;
+  border-radius: 3px;
 }
 
 .biggerbutton {
@@ -161,12 +171,15 @@ h2 {
 
 .contactContainer {
   display: inline-block;
-  text-align: none;
 }
 @media (min-width: 830px) {
   .maincontainer {
     margin-top: 20%;
   }
+
+  /*.hideIt {
+    display: none;
+  }*/
 
   textarea {
     width: 55%
