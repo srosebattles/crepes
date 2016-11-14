@@ -76,15 +76,23 @@ header {
 .beverages {
   padding: 40px 0;
 }
+
 .locationwarning {
   padding: 40px 0;
 }
+
 .item {
   padding: 10px 0;
 }
+
 .social {
   width: 100%;
 }
+
+.sociallogo {
+  text-align: center;
+}
+
 .sociallogo img {
   border-radius: 20px;
   height: 50px;
@@ -125,10 +133,14 @@ h4.red {
   padding-bottom: 10px;
 }
 
-h6.makeGray,
+h6.makeGray {
+  color: #95989A;
+  font-size: 2rem;
+}
+
 p {
   color: #95989A;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 
 .faverow {
@@ -168,11 +180,19 @@ h2 {
 .mappy img,
 .crepePic img {
   border: 1px solid #E52929;
+  margin-bottom: 2rem;
 }
 
 .storymain {
   padding-bottom: 2rem;
   text-align: left;
+}
+
+.mainInput {
+  background-color: #F5F5F5;
+  border: 1px solid #666;
+  border-radius: 4px;
+  color: #666;
 }
 
 .storypage {
@@ -197,27 +217,33 @@ h2 {
 
 .quotebutton {
   background-color: #E52929;
-  border: none;
-  border-radius: 3px;
+  border: 1px solid transparent;
+  border-radius: 4px;
   color: white;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem 1rem;
   transition: .2s ease;
-  width: 12rem;
+  width: 15rem;
 }
 
 .quotebutton:hover {
   background-color: white;
-  border-radius: 3px;
+  border: 1px solid #E52929;
+  border-radius: 4px;
   color: #E52929;
   cursor: pointer;
-  outline: 1px solid #E52929;
 }
 
 .biggerbutton {
+  border: 1px solid #E52929;
+  border-radius: 4px;
+}
+
+.biggerbutton {
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   width: 20rem;
@@ -230,6 +256,21 @@ h2 {
 .contactContainer {
   display: inline-block;
 }
+
+.padbottom {
+  padding-bottom: 2rem;
+}
+
+.margbottom {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+  .maincontainer {
+    margin-top: 30%;
+  }
+}
+
 @media (min-width: 830px) {
   .maincontainer {
     margin-top: 20%;
