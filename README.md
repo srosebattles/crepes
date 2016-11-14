@@ -8,7 +8,9 @@ The design process began with conceptualizing a business type to feature how our
 ### Visual Appeal
 We first looked for a logo that best represents our product. The colors that were already part of the logo helped us lay out our color pallet for the rest of our site. We are using a white background with grey text and red accents. Our font is Arial because of its clean sans-serif formatting and its accessibility on virtually all browsers.
 ### Inspiration From
+We found some ideas for our menu from a local restaurant called Studio Crepe. They had an excellent variety to choose from for both our sweet and savory crepes. This is their website [Studio Crepe](http://www.studiocrepe.com/).
 
+We decided on the LA area because the weather would allow for food truck service year round. We found some locations on the following link [locations](http://roaminghunger.com/food-trucks/ca/los-angeles/).
 
 ##Development
 We decided that our best option for the layout of our site would be using Bootstrap. Bootstrap provides an excellent source for mobile-first development. It provides a framework that facilitates a functional and responsive layout.
