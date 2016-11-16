@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/index.css" media="screen">
   <title>Creme de la Crepe</title>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -30,7 +34,12 @@
         <h2 class="red menuheader">Sweets $8</h2>
         <div class="item row">
         <div class="col-xs-4 foodpic">
-          <img class="foodpic" src="assets/strawberrycrepe.jpg" alt="Picture of a menu item" />
+          <figure class="half left zoom-effect">
+              <div class="aspectRatioPlaceholder" >
+                  <div class="aspect-ratio-fill"></div>
+                  <img class="foodpic" data-width="900" data-height="450" src="assets/strawberrycrepe.jpg" alt="Picture of a menu item">
+              </div>
+          </figure>
         </div>
         <div class="fooddescription col-xs-12 col-lg-8">
         <h3>Strawberry</h3>
@@ -46,13 +55,23 @@
           </p>
         </div>
         <div class="col-xs-4 foodpic">
-          <img class="foodpic" src="assets/lemondropcrepe.jpg" alt="Picture of a menu item" />
+          <figure class="half left zoom-effect">
+              <div class="aspectRatioPlaceholder" >
+                  <div class="aspect-ratio-fill"></div>
+                  <img class="foodpic" data-width="900" data-height="450" src="assets/lemondropcrepe.jpg" alt="Picture of a menu item">
+              </div>
+          </figure>
         </div>
         </div>
         <div class="item row">
-        <div class="col-xs-4 foodpic">
-          <img class="foodpic" src="assets/nutellacrepe.jpg" alt="Picture of a menu item" />
-        </div>
+          <div class="col-xs-4 foodpic">
+            <figure class="half left zoom-effect">
+                <div class="aspectRatioPlaceholder" >
+                    <div class="aspect-ratio-fill"></div>
+                    <img class="foodpic" data-width="900" data-height="450" src="assets/nutellacrepe.jpg" alt="Picture of a menu item">
+                </div>
+            </figure>
+          </div>
         <div class="fooddescription col-xs-12 col-lg-8">
         <h3>Nutella and Berries</h3>
           <p>
@@ -68,13 +87,23 @@
           </p>
         </div>
         <div class="col-xs-4 foodpic">
-          <img class="foodpic" src="assets/greenapplecrepe.jpg" alt="Picture of a menu item" />
+          <figure class="half left zoom-effect">
+              <div class="aspectRatioPlaceholder" >
+                  <div class="aspect-ratio-fill"></div>
+                  <img class="foodpic" data-width="900" data-height="450" src="assets/greenapplecrepe.jpg" alt="Picture of a menu item">
+              </div>
+          </figure>
         </div>
         </div>
         <div class="item row">
-        <div class="col-xs-4 foodpic">
-          <img class="foodpic" src="assets/chocolatecrepe.jpg" alt="Picture of a menu item" />
-        </div>
+          <div class="col-xs-4 foodpic">
+            <figure class="half left zoom-effect">
+                <div class="aspectRatioPlaceholder" >
+                    <div class="aspect-ratio-fill"></div>
+                    <img class="foodpic" data-width="900" data-height="450" src="assets/chocolatecrepe.jpg" alt="Picture of a menu item">
+                </div>
+            </figure>
+          </div>
         <div class="fooddescription col-xs-12 col-lg-8">
         <h3>Chocolate Lover</h3>
           <p>
@@ -87,9 +116,14 @@
     <div class="col-xs-6 menusavory">
       <h2 class="red menuheader">Savory $9</h2>
       <div class="item row">
-      <div class="col-xs-4 foodpic">
-        <img class="foodpic" src="assets/btlcrepe.jpg" alt="Picture of a menu item" />
-      </div>
+        <div class="col-xs-4 foodpic">
+          <figure class="half left zoom-effect">
+              <div class="aspectRatioPlaceholder" >
+                  <div class="aspect-ratio-fill"></div>
+                  <img class="foodpic" data-width="900" data-height="450" src="assets/btlcrepe.jpg" alt="Picture of a menu item">
+              </div>
+          </figure>
+        </div>
       <div class="fooddescription col-xs-12 col-lg-8">
       <h3>Classic BLT</h3>
         <p>
@@ -105,13 +139,23 @@
         </p>
       </div>
       <div class="col-xs-4 foodpic">
-        <img class="foodpic" src="assets/chickenparmcrepe.jpg" alt="Picture of a menu item" />
+        <figure class="half left zoom-effect">
+            <div class="aspectRatioPlaceholder" >
+                <div class="aspect-ratio-fill"></div>
+                <img class="foodpic" data-width="900" data-height="450" src="assets/chickenparmcrepe.jpg" alt="Picture of a menu item">
+            </div>
+        </figure>
       </div>
       </div>
       <div class="item row">
-      <div class="col-xs-4 foodpic">
-        <img class="foodpic" src="assets/buffalochickencrepe.jpg" alt="Picture of a menu item" />
-      </div>
+        <div class="col-xs-4 foodpic">
+          <figure class="half left zoom-effect">
+              <div class="aspectRatioPlaceholder" >
+                  <div class="aspect-ratio-fill"></div>
+                  <img class="foodpic" data-width="900" data-height="450" src="assets/buffalochickencrepe.jpg" alt="Picture of a menu item">
+              </div>
+          </figure>
+        </div>
       <div class="fooddescription col-xs-12 col-lg-8">
       <h3>Buffalo Chicken</h3>
         <p>
@@ -127,13 +171,23 @@
         </p>
       </div>
       <div class="col-xs-4 foodpic">
-        <img class="foodpic" src="assets/hamcheesecrepe.jpg" alt="Picture of a menu item" />
+        <figure class="half left zoom-effect">
+            <div class="aspectRatioPlaceholder" >
+                <div class="aspect-ratio-fill"></div>
+                <img class="foodpic" data-width="900" data-height="450" src="assets/hamcheesecrepe.jpg" alt="Picture of a menu item">
+            </div>
+        </figure>
       </div>
       </div>
       <div class="item row">
-      <div class="col-xs-4 foodpic">
-        <img class="foodpic" src="assets/bbqchickencrepe.jpg" alt="Picture of a menu item" />
-      </div>
+        <div class="col-xs-4 foodpic">
+          <figure class="half left zoom-effect">
+              <div class="aspectRatioPlaceholder" >
+                  <div class="aspect-ratio-fill"></div>
+                  <img class="foodpic" data-width="900" data-height="450" src="assets/bbqchickencrepe.jpg" alt="Picture of a menu item">
+              </div>
+          </figure>
+        </div>
       <div class="fooddescription col-xs-12 col-lg-8">
       <h3>BBQ Chicken</h3>
         <p>
@@ -173,5 +227,7 @@
     </div>
   </footer>
 
+<script src="src/medium-lightbox.js"></script>
+<script src="src/index.js"></script>
 </body>
 </html>

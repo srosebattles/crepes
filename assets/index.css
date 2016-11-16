@@ -69,6 +69,54 @@ header {
   width: 100%;
 }
 
+.aspectRatioPlaceholder .img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.zoom-effect .img {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+}
+
+.zoom-effect .zoomImg,
+.zoom-effect .zoomImg-wrap {
+  position: relative;
+  transition: all 300ms;
+  z-index: 900;
+}
+
+.zoom-effect .zoomImg-wrap--absolute {
+  height: 100%;
+  left: 0;
+  margin-top: 60%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+.zoom-effect .zoomImg {
+  cursor: pointer;
+  cursor: -webkit-zoom-out;
+}
+
+
+.zoom-effect .zoomOverlay.show {
+  opacity: 1;
+}
+
+.zoom-effect .zoomOverlay {
+  background: #FFF;
+  cursor: pointer;
+  cursor: -webkit-zoom-out;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 300ms;
+  z-index: 800;
+}
 .foodpic {
   display: none;
   height: 125px;
